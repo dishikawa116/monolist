@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+header {
+    width: 1000px;
+    height: 100px;
+    background-color: #ccff99;
+}
+
+#main {
+    width: 1000px;
+    height: 400px;
+    background-color: #ff66cc;
+}

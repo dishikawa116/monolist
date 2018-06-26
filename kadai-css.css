@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header {
+  width: 1000px;
+  background-color: #ffcccc;
+}
+
+.box {
+ width: 1000px;
+ height: 500px;
+}
+
+#menu {
+  float: right;
+  width: 300px;
+  height: 500px;
+  background-color: #ccccff;
+}
+
+#main {
+  float: left;
+  width: 700px;
+  height: 500px;
+  background-color: #ccffcc;
+}
+
+
+footer {
+  clear: both;
+  width: 1000px;
+  background-color: #ffccff;
+}
