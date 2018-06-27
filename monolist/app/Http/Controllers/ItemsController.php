@@ -1,4 +1,9 @@
- use \App\Item;
+<?php
+
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use App\Http\controlers\controler;
+use App\Item;
 
   class ItemsController extends Controller
   {
