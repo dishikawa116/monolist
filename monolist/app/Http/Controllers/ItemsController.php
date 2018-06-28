@@ -38,4 +38,18 @@ use App\Item;
             'items' => $items,
         ]);
     }
+    public function show($id)
+    {
+        $item = Item::find($id);
+        $want_users = $item->want_users;
+        $have_users = $item->have_users;
+        // $items = \DB::table('items')->join('item_user', 'items.id', '=', 'item_user.item_id')->select('items.*')->where('item_user.user_id', $user->id)->distinct()->paginate(20);
+
+        return view('items.show', [
+            'item' => $item,
+            'want_users' => $want_users,
+            'have_users' => $have_users,
+        ]);
+    }
+    
   }
